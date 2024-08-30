@@ -16,7 +16,7 @@ public class Temperature_Logger {
         int[] weekly_temp = new int[7];
 
 
-        
+
 
         for (int i = 0; i < weekly_temp.length; i++){
 
