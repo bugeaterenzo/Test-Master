@@ -14,11 +14,10 @@ public class Sports_ranking {
         String[] Top_Teams = new String[5];
 
         System.out.println("Rank your top 5 teams in order from best to worst..!");
-        int team = 0;
 
         for( int i =0; i < Top_Teams.length; i++){
 
-            System.out.print("Team number " + ++team + " ");
+            System.out.print("Team number " + (i+1) + " ");
             String user_input = input.next().toUpperCase();
             Top_Teams[i] = user_input;
 

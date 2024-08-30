@@ -16,12 +16,12 @@ public class Temperature_Logger {
         int[] weekly_temp = new int[7];
 
 
-        int day = 0 ;
+        
 
         for (int i = 0; i < weekly_temp.length; i++){
 
 
-            System.out.print("Please enter weekly temperature value for day " + ++day + "  " );
+            System.out.print("Please enter weekly temperature value for day " + (i+1) + "  " );
 
             int temp_value = input.nextInt();
 
