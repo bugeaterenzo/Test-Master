@@ -130,6 +130,19 @@ public class Extra_Questions {
 
 //        System.out.println(result);
 
+        byte x=10;
+        short y=25;
+        byte z = (byte) (x+y);
+
+//      The Sum of X and Y will be of type integer automatically since it is the rule with Mixed DataTypes .
+//      The following code does not work because you are only converting the value of Y here and not the X...
+//      byte w = (byte) y + x;
+
+
+
+
+
+
 
     }
 
