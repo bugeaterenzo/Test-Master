@@ -88,13 +88,13 @@ public class Practice {
 //        System.out.println(employee[1][0][0] + " " + employee[1][0][1]);
 
 
-        System.out.println(employee[1][0][0].substring(2 ,4) + employee[1][0][1].substring(1 ,4));
-        System.out.println(employee[1][0][0].charAt(0) + "" + employee[1][0][1].charAt(0));
+//        System.out.println(employee[1][0][0].substring(2 ,4) + employee[1][0][1].substring(1 ,4));
+//        System.out.println(employee[1][0][0].charAt(0) + "" + employee[1][0][1].charAt(0));
 
         int multiplyer = 0;
 
         for(int i = 1; i <=10; i++){
-            System.out.println(i + "  * " + " 2  =  " +  i * 2);
+//            System.out.println(i + "  * " + " 2  =  " +  i * 2);
         }
 
 
@@ -159,12 +159,15 @@ public class Practice {
 //                System.out.print( alphabet[6][1][1]  + " " );
 
 
-                int time = 582;
+        int time = 582;
 
-                double hour = time / 60;
-                int minutes = time % 60;
+        double hour = time / 60;
+        int minutes = time % 60;
 
-//                System.out.println(time + " minutes is " + hour + " hours and " + minutes + " minutes. ");
+//      System.out.println(time + " minutes is " + hour + " hours and " + minutes + " minutes. ");
+
+
+
 
 
 
