@@ -5,7 +5,7 @@ public class Practice {
 
 
 
-    public static void main (String[] args){
+    public static void main (String[] args) {
 
 //        var in = new Scanner(System.in);
 //
@@ -165,6 +165,8 @@ public class Practice {
         int minutes = time % 60;
 
 //      System.out.println(time + " minutes is " + hour + " hours and " + minutes + " minutes. ");
+
+
 
 
 
