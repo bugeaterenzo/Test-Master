@@ -1,3 +1,5 @@
+package Practice_Java;
+
 public class Replace_all_method {
 
 

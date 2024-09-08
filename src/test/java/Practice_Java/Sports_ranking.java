@@ -1,5 +1,5 @@
-import java.sql.Array;
-import java.sql.SQLOutput;
+package Practice_Java;
+
 import java.util.Arrays;
 import java.util.Scanner;
 

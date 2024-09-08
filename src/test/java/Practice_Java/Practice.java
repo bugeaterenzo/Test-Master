@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Scanner;
+package Practice_Java;
 
 public class Practice {
 
@@ -101,12 +100,12 @@ public class Practice {
 
 
 
-//        System.out.println(Arrays.toString( employee[0][0] ));
-//        System.out.println(Arrays.toString( employee[3][1] ));
-//        System.out.println(Arrays.deepToString(employee) );
+//        System.out.println(practice_java.Arrays.toString( employee[0][0] ));
+//        System.out.println(practice_java.Arrays.toString( employee[3][1] ));
+//        System.out.println(practice_java.Arrays.deepToString(employee) );
 //        System.out.println("==============================================================================");
-//        System.out.println(Arrays.asList(employee));
-//        System.out.println(Arrays.toString(employee));
+//        System.out.println(practice_java.Arrays.asList(employee));
+//        System.out.println(practice_java.Arrays.toString(employee));
 //        System.out.println("==============================================================================");
 
 
