@@ -1,5 +1,7 @@
 package Practice_Java;
 
+import java.util.Scanner;
+
 public class Practice {
 
 
@@ -34,11 +36,11 @@ public class Practice {
 
 
         int[][] number =
-                    {
-                              {1,2}
-                            , {3,4}
-                            , {5,6}
-                    };
+                {
+                        {1, 2}
+                        , {3, 4}
+                        , {5, 6}
+                };
 
 //        System.out.println(number[0][0]);
 //        System.out.println(number[0][1]);
@@ -73,7 +75,7 @@ public class Practice {
         String name = "ali";
 
 
-        String[][][] employee = { { {"john" , "bane"} , {"michle" , "stephen"} }, { {"gabriel" , "gomez"} , {"frank" , "stein"} }, { {"alex" , "watson"} , {"jack" , "sparrow"} }, { {"peter" , "normandy"} , {"johny" , "cash"} }, { {"uncle" , "sam"} , {"flex", "jofery"} }, { {"stanis" , "brathion"} , {"john" , "snow"} }, { {"rob" , "stark"} , {"jesus" , "nazerath"} },};
+        String[][][] employee = {{{"john", "bane"}, {"michle", "stephen"}}, {{"gabriel", "gomez"}, {"frank", "stein"}}, {{"alex", "watson"}, {"jack", "sparrow"}}, {{"peter", "normandy"}, {"johny", "cash"}}, {{"uncle", "sam"}, {"flex", "jofery"}}, {{"stanis", "brathion"}, {"john", "snow"}}, {{"rob", "stark"}, {"jesus", "nazerath"}},};
 
 //        System.out.println(employee[1][0][0] + " " + employee[1][0][1]);
 //
@@ -92,12 +94,9 @@ public class Practice {
 
         int multiplyer = 0;
 
-        for(int i = 1; i <=10; i++){
+        for (int i = 1; i <= 10; i++) {
 //            System.out.println(i + "  * " + " 2  =  " +  i * 2);
         }
-
-
-
 
 
 //        System.out.println(practice_java.Arrays.toString( employee[0][0] ));
@@ -109,18 +108,16 @@ public class Practice {
 //        System.out.println("==============================================================================");
 
 
-
-
 //                                     0             1
 //                                  0     1       0     1
-        char[][][] alphabet = { { {'a' , 'b'} , {'c' , 'd'} },          // 0
-                                { {'e' , 'f'} , {'g' , 'h'} },          // 1
-                                { {'i' , 'g'} , {'k' , 'l'} },          // 2
-                                { {'m' , 'n'} , {'o' , 'p'} },          // 3
-                                { {'q' , 'r'} , {'s' , 't'} },          // 4
-                                { {'u' , 'v'} , {'w' , 'x'} },          // 5
-                                { {'y' , 'z'} , {'_' , '_'} },          // 6
-                              };
+        char[][][] alphabet = {{{'a', 'b'}, {'c', 'd'}},          // 0
+                {{'e', 'f'}, {'g', 'h'}},          // 1
+                {{'i', 'g'}, {'k', 'l'}},          // 2
+                {{'m', 'n'}, {'o', 'p'}},          // 3
+                {{'q', 'r'}, {'s', 't'}},          // 4
+                {{'u', 'v'}, {'w', 'x'}},          // 5
+                {{'y', 'z'}, {'_', '_'}},          // 6
+        };
 
 //                System.out.print( alphabet[0][0][0]  + " " );
 //                System.out.print( alphabet[0][0][1]  + " " );
@@ -166,19 +163,11 @@ public class Practice {
 //      System.out.println(time + " minutes is " + hour + " hours and " + minutes + " minutes. ");
 
 
-
-
-
-
-
-
-
-
-
-
     }
 
 
 
 
 }
+
+
