@@ -54,23 +54,32 @@ public static void ask_price(){
 
     for ( int i = 0; i < prices.length ; i++ ) {
 
-        System.out.print("Item " + x  + " price :");
-        int price = in.nextInt();
-        prices[i] = price;
-        x++;
+
 
         if ( i == prices.length - 1)
         {
-            System.out.print("Do you want to add more items ? yes/no");
-            String answer =  in.next().toLowerCase();
-            if (answer.equals("yes"))
+            System.out.print("Item " + x  + " price :");
+            int price = in.nextInt();
+            prices[i] = price;
+            x++;
+
+            if ( x > 1 )
             {
-                ask_price();
+                System.out.print("Do you want to add more items ? yes/no");
+                String answer =  in.next().toLowerCase();
+
+                if (answer.equals("yes"))
+                {
+                    ask_price();
+                }
+                else
+                {
+                    break;
+                }
+
             }
-            else
-            {
-                break;
-            }
+
+
         }
 
     }
