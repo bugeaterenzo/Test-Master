@@ -60,7 +60,7 @@ public class Substring {
 //        Question 6: Substring Puzzle
 
 
-        String word_11= "abcdefgh";
+        String word_11 = "abcdefgh";
         String word_12 = word_11.substring(4 ,8 ) + word_11.substring(0 ,4 );
 
 
@@ -154,7 +154,21 @@ public class Substring {
             }
         }
 
-        System.out.println(charList);
+
+
+
+//        Question 10: Reconstructing a Sentence
+
+
+        String word_18 = "Java is fun to learn";
+
+        String word_19 = word_18.substring(15 ,20 ) +
+                         word_18.substring(12 ,14 ) +
+                         word_18.substring(8 ,11 ) +
+                         word_18.substring(0 ,4 ) +
+                         word_18.substring(5 ,7 ) ;
+
+        System.out.println(word_19);
 
 
 
