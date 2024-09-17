@@ -20,6 +20,8 @@ public class Working_with_maps {
 
 
 
+
+
         char[] char_paragraph = paragraph.toCharArray();
 
         ArrayList<String> string_paragraph = new ArrayList<>();
@@ -36,8 +38,8 @@ public class Working_with_maps {
             if( char_paragraph[i] != ' ')
             {
                 word += char_paragraph[i];
-
-            } else
+            }
+            else
                 {
                     string_paragraph.add(word.trim());
                     word = "";
@@ -59,7 +61,7 @@ public class Working_with_maps {
 
         // System.out.print(paragraph_word_count);
 
-        paragraph_word_count.forEach( (k , v ) -> System.out.print( k + " -- " + v + " , "));
+         paragraph_word_count.forEach( (k , v ) -> System.out.print( k + " -- " + v + " , "));
 
 
 
