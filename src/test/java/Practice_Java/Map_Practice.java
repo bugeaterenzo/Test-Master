@@ -8,11 +8,11 @@ public class Map_Practice {
     {
 
 
-        Map<Integer , String> employee_1 = new HashMap<>();
+        Map<Integer , String> employee_1 = new HashMap<>(); // order not guaranteed
 
-        Map<Integer , String> employee_2 = new LinkedHashMap<>();
+        Map<Integer , String> employee_2 = new LinkedHashMap<>(); // insertion order is guaranteed
 
-        Map<Integer , String> employee_3 = new TreeMap<>();
+        Map<Integer , String> employee_3 = new TreeMap<>(); // sorted order is applied no null key is accepted
 
 
 //        add key value pairs
