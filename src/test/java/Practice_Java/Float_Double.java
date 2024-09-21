@@ -20,7 +20,7 @@ public class Float_Double {
 
 //        ex:   When you declare a float as float weight = 1234567.845432F;, Java rounds
 //              the value because float only supports about 7 significant digits. So any
-//              additional digits after 7 digits (both before and after the decimal) may
+//              additional digits after 7 digits (both before and after the decimal point) may
 //              be truncated or rounded.
 
 
