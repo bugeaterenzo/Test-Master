@@ -99,7 +99,12 @@ public class ToLowerCase {
 
 //        Question 9: Dynamic Case Conversion
 
-        String word_11 = "Toggle CASE";  //  aaaaaaa
+        // The following code works fine but includes unnecessary code in it
+        // the precise code is in ToUpperCase.java file
+
+        String word_11 = "TOGGLE CASe";  //  aaaaaaa
+
+
 
         boolean is_lower_case = true;
 
@@ -119,12 +124,12 @@ public class ToLowerCase {
 
         if (is_lower_case)
         {
-           //  System.out.println(message + word_11 );
+             System.out.println(message + word_11 );
         }
         else
         {
             word_11 = word_11.toLowerCase();
-           //  System.out.println(" Converted to : " + word_11);
+            System.out.println(" Converted to : " + word_11);
         }
 
 
