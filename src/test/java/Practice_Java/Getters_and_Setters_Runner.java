@@ -3,7 +3,7 @@ package Practice_Java;
 public class Getters_and_Setters_Runner {
 
 
-    public static void mian (String[] args)
+    public static void main (String[] args)
     {
 
 
