@@ -1,4 +1,4 @@
-package Practice_Java;
+package Extra_Questions;
 
 public class Extra_Questions {
 
