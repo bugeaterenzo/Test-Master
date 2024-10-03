@@ -1,4 +1,4 @@
-package Operators;
+package Java_Assignments_October.Operators;
 
 public class Compound_Operators {
 
