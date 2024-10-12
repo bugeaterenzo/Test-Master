@@ -1,4 +1,4 @@
-package Practice_Java;
+package Practice_Java.Java_Youtube;
 
 import java.util.Arrays;
 

@@ -1,6 +1,5 @@
-package Practice_Java;
+package Practice_Java.Java_Youtube;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Array_Sorting {
