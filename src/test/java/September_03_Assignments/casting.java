@@ -6,6 +6,7 @@ public class casting {
 
     public static void main (String[] args) {
 
+          int a=3,b=3,c=3;
 
 
 //        Question 1: Implicit Casting
@@ -22,6 +23,7 @@ public class casting {
             double  num_d_2 = 9.8;
 
             int num_i_2 = (int) num_d_2;
+            System.out.println(" (int) num_d_2 : " + num_i_2);
 
 
 
