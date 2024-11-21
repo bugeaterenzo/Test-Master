@@ -114,6 +114,16 @@ public class set
 
 
 
+        // ListIterator is not supported by Set or TreeSet.
+
+        //ListIterator is specifically designed for List implementations (like ArrayList
+        // or LinkedList) since it provides additional capabilities like traversing in
+        // both directions (forward and backward), adding elements, and modifying elements
+        // during iteration.
+
+        //Set implementations, including TreeSet, do not allow indexed access and generally
+        // don't support the bidirectional iteration provided by ListIterator.
+
         // remove(Object o): Removes a specific element
         set.remove("Banana");
         System.out.println("After remove('Banana'): " + set); // Output: [Apple, Cherry, Orange, Grapes]
