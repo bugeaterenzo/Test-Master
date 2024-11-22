@@ -22,7 +22,7 @@ public class has_next
 
         //has_Next_Float();
 
-        //has_Next_Int();
+        has_Next_Int();
 
         //has_Next_Line();
 
