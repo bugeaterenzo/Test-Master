@@ -24,11 +24,11 @@ public class has_next
 
         has_Next_Int();
 
-        //has_Next_Line();
+        has_Next_Line();
 
-        //has_Next_Long();
+        has_Next_Long();
 
-        //has_Next_Short();
+        has_Next_Short();
 
 
 
